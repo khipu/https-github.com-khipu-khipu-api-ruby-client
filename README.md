@@ -21,7 +21,7 @@ end
 #### Send push message
 ```ruby
 api      = KhipuChaski::PushNotificationsApi.new()
-response = api.msg_post('recipientId', 'subject', 'Hello!!')
+response = api.send_message(KhipuChaski::Message.new({"recipientIdSet" => ["recipient1"], "subject" => "subject", "body" => "Hello!!"}))
 
 print response
 
