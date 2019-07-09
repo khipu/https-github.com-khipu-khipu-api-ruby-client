@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["khipu"]
   s.email       = ["developers@khipu.com"]
-  s.homepage    = "https://github.com/khipu/khipu-chaski-api-ruby-client"
-  s.summary     = %q{A ruby wrapper for the khipu chaski APIs}
+  s.homepage    = "https://github.com/khipu/khipu-api-ruby-client"
+  s.summary     = %q{A ruby wrapper for the khipu APIs}
   s.description = %q{This gem maps to a swagger API}
   s.license     = "Apache-2.0"
 
