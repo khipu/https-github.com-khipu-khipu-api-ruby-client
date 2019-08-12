@@ -112,8 +112,8 @@ module KhipuChaski
 
     def initialize
       @scheme = 'https'
-      @host = 'khipu.com'
-      @base_path = '/chaski/api/1.0'
+      @host = 'chaski.khipu.com'
+      @base_path = '/api/1.0'
       @api_key = {}
       @api_key_prefix = {}
       @verify_ssl = true
