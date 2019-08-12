@@ -30,3 +30,4 @@ print response
 ### Documentation
 
 - [gem docs](http://www.rubydoc.info/gems/khipu-chaski-api-client/)
+
